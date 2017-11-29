@@ -1,0 +1,99 @@
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: local('Avenir Next'), url(./fonts/Avenir-Next.ttc) format('ttc');
+}
+html, h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: 'Avenir Next';    
+}
+     
+
+* {
+  box-sizing: border-box;
+}
+/*
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+
+.home__jumbotron--background{
+  height: 600px;
+  background: url('./assets/Homepage_Bg.jpg') center no-repeat ;
+  text-align: center;
+  color: #37393E;
+}
+ 
+.home__container--Header, .home__mainheader--center, .home__jumbotron--copy, .home__column--copy{
+  text-align: center;
+}
+
+.home__container--Header{
+  padding: 24px 0;
+  margin: 0;
+  font-weight: 500;
+  color: #37393E;
+}
+
+.home__mask--background{
+  border-radius: 100px;  
+  width: 72%; 
+  height: 200px;
+  margin: 25px auto;
+  
+}
+
+.home__brand--copy{
+  width: 75.2%;	
+  color: #37393E;
+  margin: 0 auto;
+}
+
+.shopping {
+  background: url('./assets/Homepage_Calculator.jpg') center no-repeat ;  
+  background-size: 150%;    
+}
+
+.handshake {  
+  background: url('./assets/Homepage_Handshake.jpg')  center no-repeat ;  
+  background-size: 150%;  
+  
+}
+
+.calculate {
+  background: url('./assets/Homepage_Shoppingcart.jpg')  center no-repeat ;  
+  background-size: 150%;    
+}
+.home__logo--spacing{
+  margin: 18px 33px; 
+  display: inline-block;  
+}
+
+
+
+
+
+
+/* Footer styling */
+.footer-menu{
+  font-weight: 600;
+  line-height: 24px;
+  color: #37393E;
+}
